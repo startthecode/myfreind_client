@@ -12,7 +12,7 @@ export const Footer = () => {
   return (
     <>
       <p {...peraClasses}>
-        Don't have an account? 
+        Don't have an account?
         <Link {...createUserFinalAttributes}> Sign Up</Link>
       </p>
       <>

@@ -1,12 +1,6 @@
-import { Icon } from "@iconify/react";
-import { Button, Logo } from "../../ui/PresentationalComponents";
+import { Logo } from "../../ui/PresentationalComponents";
 import Divider from "../../ui/PresentationalComponents/Divider";
-import Inputs from "../../ui/PresentationalComponents/Inputs";
-import { Form } from "../../ui/PresentationalComponents/Form";
-import { useState } from "react";
-import { useEffect } from "react";
-import { Link } from "react-router-dom";
-import { Footer } from "./components/layout/footer";
+import { Footer } from "./components/layout/Footer";
 import { SignInForm } from "./components/SignInForm";
 import { FbSignin } from "./components/FbSignin";
 import { GooleSignin } from "./components/GooleSignin";
