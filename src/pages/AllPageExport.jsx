@@ -1,6 +1,6 @@
 export { EditProfile } from "./editProfile/EditProfile";
 export { Home } from "./user-home-feed/Home";
-export { Chat } from "./Chat/Chat";
+export { Chat } from "./chat/Chat";
 export { ChatBox } from "./Chat/ChatBox";
 
 export { SearchFreinds } from "../pages/searchFreinds/SearchFreinds";
