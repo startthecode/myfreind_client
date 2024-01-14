@@ -1,7 +1,7 @@
 export { EditProfile } from "./editProfile/EditProfile";
 export { Home } from "./user-home-feed/Home";
 export { Chat } from "./chat/Chat";
-export { ChatBox } from "./Chat/ChatBox";
+export { ChatBox } from "./chat/ChatBox";
 
 export { SearchFreinds } from "../pages/searchFreinds/SearchFreinds";
 export { SignIn } from "./login/SignIn";
