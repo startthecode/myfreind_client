@@ -1,0 +1,42 @@
+.owl_storyCard{
+    button{
+        background-color: transparent !important
+    }
+    .owl-dots{
+       @apply absolute w-full top-0 flex mt-4 z-30;
+
+       button{
+        display: flex !important;
+        @apply flex-1;
+        span{
+            width: 100% !important;
+            margin: 0px 3.3px !important;
+            height: 3px !important;
+            background-color: rgba(255, 255, 255, 0.233);
+
+        }
+        &.active span{background-color: white !important;}
+       }
+    }
+    
+    .owl-nav{
+        button{
+            position: absolute;
+          
+            background: rgba(255, 0, 0, 0);
+            opacity: 0;
+            top: 50%;
+            height: 76%;
+            transform: translateY(-50%);
+            width: 50px;
+            z-index: 1;
+        }
+        .owl-prev{
+            left: 0;
+        }
+        .owl-next{
+            right: 0;
+        }
+    }
+   
+}

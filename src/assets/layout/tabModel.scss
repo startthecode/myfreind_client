@@ -1,0 +1,23 @@
+.tabsParent{
+ & > div{
+    @apply relative w-full h-[35px];
+    svg{
+        path{
+            @apply fill-tertiary_BG
+        }
+    }
+   &.active{
+    svg{
+        animation: rotateY 4s linear infinite;
+        path{
+            @apply fill-primary_BG
+        }
+    }
+    &::after{
+        @apply absolute h-1 bottom-[-7px] left-0 bg-primary_BG w-full content-[''] ;
+    }
+   }
+ }   
+}
+
+
