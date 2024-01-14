@@ -1,9 +1,9 @@
 import { Icon } from "@iconify/react";
 import SlideUpMenu from "../../../../ui/PresentationalComponents/SlideUpMenu";
 import { EachPostProvider } from "../../PostCard";
-import { useContext, useEffect, useState } from "react";
+import { useContext, useState } from "react";
 import { AllComments } from "../postComment/AllComments";
-import { AddNewComment } from "../postComment/addNewComment";
+import { AddNewComment } from "../postComment/AddNewComment";
 
 export const Comment = () => {
   let { post } = useContext(EachPostProvider);
