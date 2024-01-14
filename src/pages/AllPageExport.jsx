@@ -11,6 +11,6 @@ export { Profile } from "./profile/Profile";
 export { Reels } from "./Reels";
 export { Search } from "./Search";
 export { Setting } from "./Setting";
-export { SignUp } from "./signUp/SignUp";
+export { SignUp } from "./signup/SignUp";
 export { OtherProfile } from "./otherProfile/OtherProfile";
 export { CreatePost } from "../pages/createPost/CreatePost";
