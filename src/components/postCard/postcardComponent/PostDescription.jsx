@@ -1,6 +1,5 @@
 import { useContext } from "react";
-import { ReadMore } from "../../../ui/PresentationalComponents/readMore";
-import { PostHashTags } from "./PostHashTags";
+import { ReadMore } from "../../../ui/PresentationalComponents/ReadMore";
 import { EachPostProvider } from "../PostCard";
 
 const parentClasses = {
