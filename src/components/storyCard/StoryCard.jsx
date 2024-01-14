@@ -1,7 +1,7 @@
 import { HightLight_Story_body } from "./HightLight_Story_body";
 import { Temporary_story } from "./Temporary_story";
-import { Story_footer } from "./story_footer";
-import { Story_header } from "./story_header";
+import { Story_footer } from "./Story_footertory_footer";
+import { Story_header } from "./Story_header";
 
 let classes = {
   className: "bg-white h-screen w-full",
