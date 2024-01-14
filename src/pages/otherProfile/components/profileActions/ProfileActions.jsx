@@ -1,8 +1,6 @@
-import { useContext, useState } from "react";
-import { UnfollowUser } from "./UnfollowUser";
-import { FollowedUserActions } from "./followedUserActions";
+import { useContext } from "react";
+import { FollowedUserActions } from "./FollowedUserActions";
 import { OtherProfileContext } from "../../contextAPI/OtherProfileProvider";
-import { Button } from "../../../../ui/PresentationalComponents";
 import { FollowUser } from "./FollowUser";
 
 export const ProfileActions = () => {

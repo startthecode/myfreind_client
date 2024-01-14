@@ -1,10 +1,8 @@
 import { AddToCloseFreind } from "./AddToCloseFreind";
-import { AddToFavourite } from "./AddToFavourite";
 import { MuteUserUploads } from "./MuteUserUploads";
-import RestrictUser from "./RestrictUser";
 import SlideUpMenu from "../../../../ui/PresentationalComponents/SlideUpMenu";
 import { Button } from "../../../../ui/PresentationalComponents";
-import { useContext, useEffect } from "react";
+import { useContext } from "react";
 import { OtherProfileContext } from "../../contextAPI/OtherProfileProvider";
 import { useUnFollowUser } from "../../useFollowUnfollowUser";
 import { Icon } from "@iconify/react";
